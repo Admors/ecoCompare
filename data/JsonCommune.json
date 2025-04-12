@@ -2,301 +2,301 @@
   "total_count": 262,
   "results": [
     {
-      "municipalitys": "Andenne",
+      "municipality": "Andenne",
       "e_spec_moyen": 404,
       "nombre_de_certificats": 6037,
-      "label_moyen": "E"
+      "e_spec_label_moyen": "E"
     },
     {
-      "municipalitys": "Ans",
+      "municipality": "Ans",
       "e_spec_moyen": 362,
       "nombre_de_certificats": 5757,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Baelen",
+      "municipality": "Baelen",
       "e_spec_moyen": 430,
       "nombre_de_certificats": 692,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Bassenge",
+      "municipality": "Bassenge",
       "e_spec_moyen": 439,
       "nombre_de_certificats": 1590,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Beloeil",
+      "municipality": "Beloeil",
       "e_spec_moyen": 412,
       "nombre_de_certificats": 2818,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Binche",
+      "municipality": "Binche",
       "e_spec_moyen": 443,
       "nombre_de_certificats": 6494,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Boussu",
+      "municipality": "Boussu",
       "e_spec_moyen": 423,
       "nombre_de_certificats": 4014,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Brunehaut",
+      "municipality": "Brunehaut",
       "e_spec_moyen": 523,
       "nombre_de_certificats": 1244,
       "label_moyen": "G"
     },
     {
-      "municipalitys": "Celles",
+      "municipality": "Celles",
       "e_spec_moyen": 396,
       "nombre_de_certificats": 924,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Chaudfontaine",
+      "municipality": "Chaudfontaine",
       "e_spec_moyen": 402,
       "nombre_de_certificats": 4323,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Ciney",
+      "municipality": "Ciney",
       "e_spec_moyen": 358,
       "nombre_de_certificats": 4086,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Colfontaine",
+      "municipality": "Colfontaine",
       "e_spec_moyen": 378,
       "nombre_de_certificats": 4085,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "�talle",
+      "municipality": "�talle",
       "e_spec_moyen": 344,
       "nombre_de_certificats": 813,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Eupen",
+      "municipality": "Eupen",
       "e_spec_moyen": 374,
       "nombre_de_certificats": 3720,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Fernelmont",
+      "municipality": "Fernelmont",
       "e_spec_moyen": 411,
       "nombre_de_certificats": 1202,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Fleurus",
+      "municipality": "Fleurus",
       "e_spec_moyen": 364,
       "nombre_de_certificats": 4244,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Froidchapelle",
+      "municipality": "Froidchapelle",
       "e_spec_moyen": 292,
       "nombre_de_certificats": 1033,
       "label_moyen": "D"
     },
     {
-      "municipalitys": "Genappe",
+      "municipality": "Genappe",
       "e_spec_moyen": 345,
       "nombre_de_certificats": 3048,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Habay",
+      "municipality": "Habay",
       "e_spec_moyen": 295,
       "nombre_de_certificats": 1550,
       "label_moyen": "D"
     },
     {
-      "municipalitys": "Havelange",
+      "municipality": "Havelange",
       "e_spec_moyen": 557,
       "nombre_de_certificats": 987,
       "label_moyen": "G"
     },
     {
-      "municipalitys": "Herbeumont",
+      "municipality": "Herbeumont",
       "e_spec_moyen": 500,
       "nombre_de_certificats": 401,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Herstal",
+      "municipality": "Herstal",
       "e_spec_moyen": 378,
       "nombre_de_certificats": 7658,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Houffalize",
+      "municipality": "Houffalize",
       "e_spec_moyen": 367,
       "nombre_de_certificats": 1367,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Huy",
+      "municipality": "Huy",
       "e_spec_moyen": 355,
       "nombre_de_certificats": 6394,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "La Louvi�re",
+      "municipality": "La Louvi�re",
       "e_spec_moyen": 391,
       "nombre_de_certificats": 14890,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "L�glise",
+      "municipality": "L�glise",
       "e_spec_moyen": 423,
       "nombre_de_certificats": 768,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Lens",
+      "municipality": "Lens",
       "e_spec_moyen": 408,
       "nombre_de_certificats": 880,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Les Bons Villers",
+      "municipality": "Les Bons Villers",
       "e_spec_moyen": 416,
       "nombre_de_certificats": 1651,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Leuze-en-Hainaut",
+      "municipality": "Leuze-en-Hainaut",
       "e_spec_moyen": 375,
       "nombre_de_certificats": 2758,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Lobbes",
+      "municipality": "Lobbes",
       "e_spec_moyen": 433,
       "nombre_de_certificats": 1012,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Malmedy",
+      "municipality": "Malmedy",
       "e_spec_moyen": 335,
       "nombre_de_certificats": 2847,
       "label_moyen": "D"
     },
     {
-      "municipalitys": "Merbes-le-Ch�teau",
+      "municipality": "Merbes-le-Ch�teau",
       "e_spec_moyen": 478,
       "nombre_de_certificats": 673,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Mons",
+      "municipality": "Mons",
       "e_spec_moyen": 401,
       "nombre_de_certificats": 25712,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Mont-Saint-Guibert",
+      "municipality": "Mont-Saint-Guibert",
       "e_spec_moyen": 303,
       "nombre_de_certificats": 1582,
       "label_moyen": "D"
     },
     {
-      "municipalitys": "Olne",
+      "municipality": "Olne",
       "e_spec_moyen": 379,
       "nombre_de_certificats": 620,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Ottignies-Louvain-la-Neuve",
+      "municipality": "Ottignies-Louvain-la-Neuve",
       "e_spec_moyen": 286,
       "nombre_de_certificats": 10936,
       "label_moyen": "D"
     },
     {
-      "municipalitys": "P�ruwelz",
+      "municipality": "P�ruwelz",
       "e_spec_moyen": 441,
       "nombre_de_certificats": 3522,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Philippeville",
+      "municipality": "Philippeville",
       "e_spec_moyen": 451,
       "nombre_de_certificats": 1954,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Profondeville",
+      "municipality": "Profondeville",
       "e_spec_moyen": 413,
       "nombre_de_certificats": 2402,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Qui�vrain",
+      "municipality": "Qui�vrain",
       "e_spec_moyen": 401,
       "nombre_de_certificats": 1502,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Rebecq",
+      "municipality": "Rebecq",
       "e_spec_moyen": 370,
       "nombre_de_certificats": 2018,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Rixensart",
+      "municipality": "Rixensart",
       "e_spec_moyen": 337,
       "nombre_de_certificats": 4920,
       "label_moyen": "D"
     },
     {
-      "municipalitys": "Rumes",
+      "municipality": "Rumes",
       "e_spec_moyen": 421,
       "nombre_de_certificats": 834,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Sainte-Ode",
+      "municipality": "Sainte-Ode",
       "e_spec_moyen": 228,
       "nombre_de_certificats": 473,
       "label_moyen": "C"
     },
     {
-      "municipalitys": "Sambreville",
+      "municipality": "Sambreville",
       "e_spec_moyen": 411,
       "nombre_de_certificats": 5425,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Saint-Vith",
+      "municipality": "Saint-Vith",
       "e_spec_moyen": 361,
       "nombre_de_certificats": 1343,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Soumagne",
+      "municipality": "Soumagne",
       "e_spec_moyen": 396,
       "nombre_de_certificats": 2662,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Spa",
+      "municipality": "Spa",
       "e_spec_moyen": 435,
       "nombre_de_certificats": 3137,
       "label_moyen": "F"
     },
     {
-      "municipalitys": "Sprimont",
+      "municipality": "Sprimont",
       "e_spec_moyen": 380,
       "nombre_de_certificats": 2568,
       "label_moyen": "E"
     },
     {
-      "municipalitys": "Stavelot",
+      "municipality": "Stavelot",
       "e_spec_moyen": 402,
       "nombre_de_certificats": 1635,
       "label_moyen": "E"
