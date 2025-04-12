@@ -12,28 +12,23 @@ async function loadBuildings(filters = {}) {
         const data = await response.json();
         
         const filteredBuildings = data.results.filter(building => {
-            if (filters.insCode && building.mun_code !== filters.insCode) {
-                return false;
-            }
+            if (filters.insCode && building.mun_code !== filters.insCode) return false;
             
             if (filters.buildingType && filters.buildingType !== "Any" &&
                 building.destination !== filters.buildingType) {
                 return false;
             }
             
-            // Filter by location if provided
             if (filters.location &&
                 !(building.municipality?.toLowerCase().includes(filters.location.toLowerCase()) ||
                     building.province?.toLowerCase().includes(filters.location.toLowerCase()))) {
                 return false;
             }
             
-            // Filter by year if provided
             if (filters.year && parseInt(building.build_year, 10) !== parseInt(filters.year, 10)) {
                 return false;
             }
             
-            // Filter by energy rating if provided and not "Any"
             if (filters.energyRating && filters.energyRating !== "Any" &&
                 building.e_spec_label !== filters.energyRating) {
                 return false;
