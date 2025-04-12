@@ -3,14 +3,14 @@ async function loadHouses() {
     try {
         const response = await fetch("data/JsonBatiment.json");
         const data = await response.json();
-        
+
         if (data) {
             $houseContainer.className = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6";
             data.results.forEach(house => {
                 const houseDiv = document.createElement("div");
                 const color = getColor(house);
                 houseDiv.className = "bg-white p-6 rounded-2xl shadow hover:shadow-xl transition-shadow duration-300 hover:scale-[1.02] transform";
-                houseDiv.innerHTML = `<h2 class="text-xl font-semibold text-green-600 mb-2">🏚️ ${house.mun_code || "N/A"}</h2>
+                houseDiv.innerHTML = `<h2 class="text-xl font-semibold mb-2">🏚️ ${house.mun_code || "N/A"}</h2>
                                     <ul class="text-sm text-gray-600 space-y-1">
                                     <li><em class="fas w-4 fa-home mr-2 text-gray-500"></em>Type: Residential</li>
                                     <li><em class="fas w-4 fa-map-marker-alt mr-2 text-gray-500"></em>Location: ${house.municipalitys || "N/A"}, ${house.province}</li>
@@ -18,11 +18,11 @@ async function loadHouses() {
                                     <li><em class="fas w-4 fa-bolt mr-2 text-gray-500"></em>Energy rating: 
                                     <span class="${color} font-semibold">${house.e_spec_label || "N/A"} (${house.e_spec} kWh/m² per year)</span></li>
                                     </ul>`;
-                
+
                 $houseContainer.appendChild(houseDiv);
             });
         }
-        
+
     } catch (error) {
         $houseContainer.innerHTML = "<p class='text-red-500'>Failed to load house data. Please try again later.</p>";
     }
@@ -49,4 +49,21 @@ function getColor(house) {
     }
 }
 
-await loadHouses();
+document.addEventListener('DOMContentLoaded', () => {
+    // Set up search button click handler
+    const searchButton = document.querySelector('button');
+    searchButton.addEventListener('click', () => {
+        const filters = {
+            insCode: document.querySelector('input[placeholder="INS-code"]').value,
+            housingType: document.querySelector('select:first-of-type').value,
+            location: document.querySelector('input[placeholder="📍 Location"]').value,
+            year: document.querySelector('input[placeholder="📅 Year"]').value,
+            energyRating: document.querySelector('select:last-of-type').value
+        };
+        console.log(filters)
+        loadHouses(filters);
+    });
+
+    // Load all houses initially
+    loadHouses();
+});
