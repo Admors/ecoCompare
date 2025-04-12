@@ -14,17 +14,17 @@ async function init2() {
                     labels: bestCommune.map(row => row.name),
                     datasets: [
                         {
-                            label: "Annual energy consumption (in kWh/m² per year)",
+                            label: "Annual energy consumption",
                             data: bestCommune.map(row => row.espec),
-                            backgroundColor: "#14532D"
+                            backgroundColor: "oklch(72.3% 0.219 149.579)"
                         }
                     ]
                 }
             });
 
             const worstCommune = data.results.map(commune => (
-                {name: commune.municipality, espec: commune.e_spec}
-            )).sort((a, b) => b.espec - a.espec).splice(0, 10);
+                {name : commune.municipality, espec : commune.e_spec}
+            )).sort((a,b) => b.espec - a.espec).splice(0, 10);
 
             new Chart(document.querySelector("#chartForWorst"), {
                 type: "bar",
@@ -32,9 +32,9 @@ async function init2() {
                     labels: worstCommune.map(row => row.name),
                     datasets: [
                         {
-                            label: "Annual energy consumption (in kWh/m² per year)",
+                            label: "Annual energy consumption",
                             data: worstCommune.map(row => row.espec),
-                            backgroundColor: "#ad1328"
+                            backgroundColor: "oklch(63.7% 0.237 25.331)"
                         }
                     ]
                 }
