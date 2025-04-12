@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoCompare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="flex items-center justify-between px-6 py-4">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" class="w-16 h-16" alt="Logo" />
+                <a href="#" class="text-2xl font-semibold hover:text-green-600 transition">EcoCompare</a>
+            </div>
+            <nav class="space-x-6">
+                <a href="#" class="text-gray-700 hover:text-green-600 transition">Habitation</a>
+                <a href="#" class="text-gray-700 hover:text-green-600 transition">Commune</a>
+                <a href="#" class="text-gray-700 hover:text-green-600 transition">Tableau de bord</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex-grow container mx-auto p-6">
+
+        <div class="bg-white p-6 rounded-2xl shadow-md mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <input type="text" placeholder="Code INS" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
+                <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
+                    <option>Aucun</option>
+                    <option>Maison unifamiliale</option>
+                    <option>Appartement</option>
+                </select>
+                <input type="text" placeholder="📍 Localisation" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
+                <input type="number" placeholder="📅 Année" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 w-full focus:outline-none focus:ring-2 focus:ring-green-400" />
+                <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
+                    <option>Aucun</option>
+                    <option>A++</option>
+                </select>
+                <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"><i class="fa-solid fa-magnifying-glass"></i> Rechercher</button>
+            </div>
+            
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition-shadow duration-300 hover:scale-[1.02] transform">
+                <h2 class="text-xl font-semibold text-green-600 mb-2">🏚️ 42</h2>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li><i class="fas fa-home mr-2 text-gray-500"></i>Type : Résidentiel</li>
+                    <li><i class="fas fa-map-marker-alt mr-2 text-gray-500"></i>Lieu : Seraing</li>
+                    <li><i class="fas fa-calendar-alt mr-2 text-gray-500"></i>Année : 2012</li>
+                    <li><i class="fas fa-bolt mr-2 text-gray-500"></i>Énergie : <span class="text-green-500 font-semibold">A</span></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white py-6 text-center text-sm mt-12">
+        &copy; 2025 EcoCompare. Tous droits réservés.
+    </footer>
+
+</body>
+</html>
