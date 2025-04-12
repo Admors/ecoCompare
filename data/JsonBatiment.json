@@ -1,0 +1,455 @@
+{
+  "total_count": 779744,
+  "results": [
+    {
+      "communes": "Namur",
+      "e_spec": 114,
+      "e_spec_label": "B",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Namur",
+      "mun_code": "92094"
+    },
+    {
+      "communes": "Vielsalm",
+      "e_spec": 201,
+      "e_spec_label": "C",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Luxembourg",
+      "mun_code": "82032"
+    },
+    {
+      "communes": "Sambreville",
+      "e_spec": 431,
+      "e_spec_label": "F",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Namur",
+      "mun_code": "92137"
+    },
+    {
+      "communes": "Namur",
+      "e_spec": 136,
+      "e_spec_label": "B",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": 1991,
+      "province": "Namur",
+      "mun_code": "92094"
+    },
+    {
+      "communes": "Châtelet",
+      "e_spec": 258,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "52012"
+    },
+    {
+      "communes": "Hélécine",
+      "e_spec": 321,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25118"
+    },
+    {
+      "communes": "Seraing",
+      "e_spec": 384,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": "62096"
+    },
+    {
+      "communes": "Engis",
+      "e_spec": 393,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": "61080"
+    },
+    {
+      "communes": "Etalle",
+      "e_spec": 72,
+      "e_spec_label": "A",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Luxembourg",
+      "mun_code": null
+    },
+    {
+      "communes": "Tubize",
+      "e_spec": 392,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25105"
+    },
+    {
+      "communes": "Hastière",
+      "e_spec": 536,
+      "e_spec_label": "G",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": 1973,
+      "province": "Namur",
+      "mun_code": "91142"
+    },
+    {
+      "communes": "Estaimpuis",
+      "e_spec": 156,
+      "e_spec_label": "B",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "57027"
+    },
+    {
+      "communes": "Mouscron/Moeskroen",
+      "e_spec": 94,
+      "e_spec_label": "B",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": null
+    },
+    {
+      "communes": "Sankt Vith/Saint-Vith",
+      "e_spec": 381,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": null
+    },
+    {
+      "communes": "Herbeumont",
+      "e_spec": 384,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Luxembourg",
+      "mun_code": "84029"
+    },
+    {
+      "communes": "La-Roche-en-Ardenne",
+      "e_spec": -24,
+      "e_spec_label": "++A",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Luxembourg",
+      "mun_code": null
+    },
+    {
+      "communes": "Ottignies-Louvain-la-Neuve",
+      "e_spec": 166,
+      "e_spec_label": "B",
+      "destination": "APARTMENT",
+      "build_year": 2005,
+      "province": "Brabant Wallon",
+      "mun_code": "25121"
+    },
+    {
+      "communes": "Jodoigne",
+      "e_spec": 231,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25048"
+    },
+    {
+      "communes": "Merbes-le-Château",
+      "e_spec": 586,
+      "e_spec_label": "G",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "56049"
+    },
+    {
+      "communes": "Walcourt",
+      "e_spec": 661,
+      "e_spec_label": "G",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Namur",
+      "mun_code": "93088"
+    },
+    {
+      "communes": "Arlon",
+      "e_spec": 272,
+      "e_spec_label": "D",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Luxembourg",
+      "mun_code": "81001"
+    },
+    {
+      "communes": "Waterloo",
+      "e_spec": 217,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25110"
+    },
+    {
+      "communes": "Morlanwelz",
+      "e_spec": 363,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "58004"
+    },
+    {
+      "communes": "Charleroi",
+      "e_spec": 369,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "52011"
+    },
+    {
+      "communes": "Liège",
+      "e_spec": 264,
+      "e_spec_label": "D",
+      "destination": "APARTMENT",
+      "build_year": 1970,
+      "province": "Liège",
+      "mun_code": "62063"
+    },
+    {
+      "communes": "Rixensart",
+      "e_spec": 326,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25091"
+    },
+    {
+      "communes": "Florennes",
+      "e_spec": 145,
+      "e_spec_label": "B",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Namur",
+      "mun_code": "93022"
+    },
+    {
+      "communes": "Lasne",
+      "e_spec": 292,
+      "e_spec_label": "D",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25119"
+    },
+    {
+      "communes": "Jodoigne",
+      "e_spec": 223,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25048"
+    },
+    {
+      "communes": "Waremme",
+      "e_spec": 635,
+      "e_spec_label": "G",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": 1964,
+      "province": "Liège",
+      "mun_code": "64074"
+    },
+    {
+      "communes": "Ferrières",
+      "e_spec": 511,
+      "e_spec_label": "G",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": "61019"
+    },
+    {
+      "communes": "Welkenraedt",
+      "e_spec": 298,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": "63084"
+    },
+    {
+      "communes": "Awans",
+      "e_spec": 487,
+      "e_spec_label": "F",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": "62006"
+    },
+    {
+      "communes": "Charleroi",
+      "e_spec": 186,
+      "e_spec_label": "C",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "52011"
+    },
+    {
+      "communes": "Chaumont-Gistoux",
+      "e_spec": 487,
+      "e_spec_label": "F",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25018"
+    },
+    {
+      "communes": "Braine-le-Comte",
+      "e_spec": 193,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "55004"
+    },
+    {
+      "communes": "La Louvière",
+      "e_spec": 91,
+      "e_spec_label": "B",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "58001"
+    },
+    {
+      "communes": "Namur",
+      "e_spec": 191,
+      "e_spec_label": "C",
+      "destination": "APARTMENT",
+      "build_year": 2005,
+      "province": "Namur",
+      "mun_code": "92094"
+    },
+    {
+      "communes": "Morlanwelz",
+      "e_spec": 511,
+      "e_spec_label": "G",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "58004"
+    },
+    {
+      "communes": "Namur",
+      "e_spec": 289,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Namur",
+      "mun_code": "92094"
+    },
+    {
+      "communes": "Liège",
+      "e_spec": 380,
+      "e_spec_label": "E",
+      "destination": "APARTMENT",
+      "build_year": null,
+      "province": "Liège",
+      "mun_code": "62063"
+    },
+    {
+      "communes": "Sombreffe",
+      "e_spec": 112,
+      "e_spec_label": "B",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Namur",
+      "mun_code": "92114"
+    },
+    {
+      "communes": "Jodoigne",
+      "e_spec": 347,
+      "e_spec_label": "E",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25048"
+    },
+    {
+      "communes": "Court-Saint-Etienne",
+      "e_spec": 314,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": null
+    },
+    {
+      "communes": "Ecaussinnes",
+      "e_spec": 187,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": null
+    },
+    {
+      "communes": "Waterloo",
+      "e_spec": 226,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25110"
+    },
+    {
+      "communes": "Waterloo",
+      "e_spec": 191,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": 1970,
+      "province": "Brabant Wallon",
+      "mun_code": "25110"
+    },
+    {
+      "communes": "La Louvière",
+      "e_spec": 223,
+      "e_spec_label": "C",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": 1979,
+      "province": "Hainaut",
+      "mun_code": "58001"
+    },
+    {
+      "communes": "Lasne",
+      "e_spec": 313,
+      "e_spec_label": "D",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Brabant Wallon",
+      "mun_code": "25119"
+    },
+    {
+      "communes": "La Louvière",
+      "e_spec": 660,
+      "e_spec_label": "G",
+      "destination": "SINGLE_FAMILY_HOUSE",
+      "build_year": null,
+      "province": "Hainaut",
+      "mun_code": "58001"
+    }
+  ]
+}

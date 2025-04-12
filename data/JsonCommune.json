@@ -1,0 +1,306 @@
+{
+  "total_count": 262,
+  "results": [
+    {
+      "communes": "Andenne",
+      "e_spec_moyen": 404,
+      "nombre_de_certificats": 6037,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Ans",
+      "e_spec_moyen": 362,
+      "nombre_de_certificats": 5757,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Baelen",
+      "e_spec_moyen": 430,
+      "nombre_de_certificats": 692,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Bassenge",
+      "e_spec_moyen": 439,
+      "nombre_de_certificats": 1590,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Beloeil",
+      "e_spec_moyen": 412,
+      "nombre_de_certificats": 2818,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Binche",
+      "e_spec_moyen": 443,
+      "nombre_de_certificats": 6494,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Boussu",
+      "e_spec_moyen": 423,
+      "nombre_de_certificats": 4014,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Brunehaut",
+      "e_spec_moyen": 523,
+      "nombre_de_certificats": 1244,
+      "label_moyen": "G"
+    },
+    {
+      "communes": "Celles",
+      "e_spec_moyen": 396,
+      "nombre_de_certificats": 924,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Chaudfontaine",
+      "e_spec_moyen": 402,
+      "nombre_de_certificats": 4323,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Ciney",
+      "e_spec_moyen": 358,
+      "nombre_de_certificats": 4086,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Colfontaine",
+      "e_spec_moyen": 378,
+      "nombre_de_certificats": 4085,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Étalle",
+      "e_spec_moyen": 344,
+      "nombre_de_certificats": 813,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Eupen",
+      "e_spec_moyen": 374,
+      "nombre_de_certificats": 3720,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Fernelmont",
+      "e_spec_moyen": 411,
+      "nombre_de_certificats": 1202,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Fleurus",
+      "e_spec_moyen": 364,
+      "nombre_de_certificats": 4244,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Froidchapelle",
+      "e_spec_moyen": 292,
+      "nombre_de_certificats": 1033,
+      "label_moyen": "D"
+    },
+    {
+      "communes": "Genappe",
+      "e_spec_moyen": 345,
+      "nombre_de_certificats": 3048,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Habay",
+      "e_spec_moyen": 295,
+      "nombre_de_certificats": 1550,
+      "label_moyen": "D"
+    },
+    {
+      "communes": "Havelange",
+      "e_spec_moyen": 557,
+      "nombre_de_certificats": 987,
+      "label_moyen": "G"
+    },
+    {
+      "communes": "Herbeumont",
+      "e_spec_moyen": 500,
+      "nombre_de_certificats": 401,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Herstal",
+      "e_spec_moyen": 378,
+      "nombre_de_certificats": 7658,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Houffalize",
+      "e_spec_moyen": 367,
+      "nombre_de_certificats": 1367,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Huy",
+      "e_spec_moyen": 355,
+      "nombre_de_certificats": 6394,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "La Louvière",
+      "e_spec_moyen": 391,
+      "nombre_de_certificats": 14890,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Léglise",
+      "e_spec_moyen": 423,
+      "nombre_de_certificats": 768,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Lens",
+      "e_spec_moyen": 408,
+      "nombre_de_certificats": 880,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Les Bons Villers",
+      "e_spec_moyen": 416,
+      "nombre_de_certificats": 1651,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Leuze-en-Hainaut",
+      "e_spec_moyen": 375,
+      "nombre_de_certificats": 2758,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Lobbes",
+      "e_spec_moyen": 433,
+      "nombre_de_certificats": 1012,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Malmedy",
+      "e_spec_moyen": 335,
+      "nombre_de_certificats": 2847,
+      "label_moyen": "D"
+    },
+    {
+      "communes": "Merbes-le-Château",
+      "e_spec_moyen": 478,
+      "nombre_de_certificats": 673,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Mons",
+      "e_spec_moyen": 401,
+      "nombre_de_certificats": 25712,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Mont-Saint-Guibert",
+      "e_spec_moyen": 303,
+      "nombre_de_certificats": 1582,
+      "label_moyen": "D"
+    },
+    {
+      "communes": "Olne",
+      "e_spec_moyen": 379,
+      "nombre_de_certificats": 620,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Ottignies-Louvain-la-Neuve",
+      "e_spec_moyen": 286,
+      "nombre_de_certificats": 10936,
+      "label_moyen": "D"
+    },
+    {
+      "communes": "Péruwelz",
+      "e_spec_moyen": 441,
+      "nombre_de_certificats": 3522,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Philippeville",
+      "e_spec_moyen": 451,
+      "nombre_de_certificats": 1954,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Profondeville",
+      "e_spec_moyen": 413,
+      "nombre_de_certificats": 2402,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Quiévrain",
+      "e_spec_moyen": 401,
+      "nombre_de_certificats": 1502,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Rebecq",
+      "e_spec_moyen": 370,
+      "nombre_de_certificats": 2018,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Rixensart",
+      "e_spec_moyen": 337,
+      "nombre_de_certificats": 4920,
+      "label_moyen": "D"
+    },
+    {
+      "communes": "Rumes",
+      "e_spec_moyen": 421,
+      "nombre_de_certificats": 834,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Sainte-Ode",
+      "e_spec_moyen": 228,
+      "nombre_de_certificats": 473,
+      "label_moyen": "C"
+    },
+    {
+      "communes": "Sambreville",
+      "e_spec_moyen": 411,
+      "nombre_de_certificats": 5425,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Saint-Vith",
+      "e_spec_moyen": 361,
+      "nombre_de_certificats": 1343,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Soumagne",
+      "e_spec_moyen": 396,
+      "nombre_de_certificats": 2662,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Spa",
+      "e_spec_moyen": 435,
+      "nombre_de_certificats": 3137,
+      "label_moyen": "F"
+    },
+    {
+      "communes": "Sprimont",
+      "e_spec_moyen": 380,
+      "nombre_de_certificats": 2568,
+      "label_moyen": "E"
+    },
+    {
+      "communes": "Stavelot",
+      "e_spec_moyen": 402,
+      "nombre_de_certificats": 1635,
+      "label_moyen": "E"
+    }
+  ]
+}
+
