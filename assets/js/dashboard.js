@@ -1,11 +1,11 @@
 async function init2() {
     try {
-        const response = await fetch("data/JsonCommune.json");
+        const response = await fetch("data/municipality.json");
         const data = await response.json();
 
         if (data) {
             const bestCommune = data.results.map(commune => (
-                {name : commune.municipalitys, espec : commune.e_spec_moyen}
+                {name : commune.municipality, espec : commune.e_spec}
             )).sort((a,b) => a.espec - b.espec).splice(0, 10);
 
             new Chart(document.querySelector("#chartForBest"), {
@@ -23,7 +23,7 @@ async function init2() {
             });
 
             const worstCommune = data.results.map(commune => (
-                {name : commune.municipalitys, espec : commune.e_spec_moyen}
+                {name : commune.municipality, espec : commune.e_spec}
             )).sort((a,b) => b.espec - a.espec).splice(0, 10);
 
             new Chart(document.querySelector("#chartForWorst"), {
