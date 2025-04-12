@@ -24,7 +24,7 @@ async function loadHouses() {
         }
         
     } catch (error) {
-        $houseContainer.innerHTML = "<p class=\"text-red-500\">Failed to load house data. Please try again later.</p>";
+        $houseContainer.innerHTML = "<p class='text-red-500'>Failed to load house data. Please try again later.</p>";
     }
 }
 
