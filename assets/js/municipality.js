@@ -9,8 +9,6 @@ function addSearch() {
     $searchButton.addEventListener("click", () => {
         const filters = {
             municipality: document.querySelector("#municipality").value.trim().toLowerCase(),
-            e_spec: document.querySelector("#e_spec").value.trim(),
-            certificates: document.querySelector("#certificates").value.trim(),
             e_spec_label: document.querySelector("#e_spec_label").value.trim()
         };
 
@@ -49,25 +47,26 @@ async function loadMunicipality(filters = {}) {
         const response = await fetch("./data/municipality.json");
         const data = await response.json();
 
-        const filtered = data.results.filter(m => {
-            if (filters.municipality && !m.municipality?.toLowerCase().includes(filters.municipality)) {
+        const filteredMunicipalities = data.results.filter(municipality => {
+
+            if (filters.municipality && !(municipality.municipality.toLowerCase().includes(filters.municipality.toLowerCase()))) {
                 return false;
             }
 
             if (filters.e_spec_label && filters.e_spec_label !== "Any" &&
-                m.e_spec_label !== filters.e_spec_label) {
+                municipality.e_spec_label !== filters.e_spec_label) {
                 return false;
             }
 
             return true;
         });
 
-        if (filtered.length === 0) {
+        if (filteredMunicipalities.length === 0) {
             $municipalityContainer.innerHTML = "<p class='col-span-3 text-center text-gray-500 py-8'>No municipality found matching your criteria.</p>";
             return;
         }
 
-        filtered.forEach(m => {
+        filteredMunicipalities.forEach(m => {
             const color = getColor(m);
             $municipalityContainer.insertAdjacentHTML("beforeend", `
                 <article class="bg-white p-6 rounded-2xl shadow-md mb-8 border border-${color} my-[1rem]">
