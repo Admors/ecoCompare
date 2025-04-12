@@ -1,0 +1,93 @@
+/*allow animating to height: auto*/
+:root {
+    interpolate-size: allow-keywords;
+}
+
+/*Make sizing more logical*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*Remove default spacing & border*/
+/*Trim down text*/
+/*Improve punctuation*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*This is future CSS, still cooking...
+    text-box-edge: cap alphabetic;
+    text-box-trim: trim-both;*/
+    hanging-punctuation: first last;
+}
+
+/*Makes text selection follow the user's accent color, like on Firefox*/
+*::selection {
+    color: HighlightText;
+    background: Highlight;
+}
+
+/*Set scrolling behavior of anchor links to smooth*/
+/*Make text rendering potentially faster*/
+html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+/*Minimum body height*/
+body {
+    min-height: 100svh;
+}
+
+/*Italic placeholder for when image does not load*/
+/*Responsive media*/
+img, picture, svg, video {
+    font-style: italic;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*Improve headings*/
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+/*Remove default characters for lists*/
+ul, ol, dl {
+    list-style: none;
+}
+
+/*Makes text wrapping prettier*/
+p, li {
+    text-wrap: pretty;
+}
+
+/*Collapses table borders & remove spacing*/
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/*Set default colors, since Windows themes can overwrite them*/
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+    background: inherit;
+    accent-color: Highlight;
+}
+
+/*Styles placeholder colors to be the same as the regular color, at half opacity*/
+input::placeholder, textarea::placeholder {
+    opacity: 50%;
+    color: inherit;
+}
+
+/*Show no animations if reduced motion is enabled*/
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition-duration: 0.0001ms !important;
+        animation-duration: 0.0001ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+    }
+}
