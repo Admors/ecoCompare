@@ -44,13 +44,12 @@ function getColor(house) {
         return "text-amber-400";
     } else if (rating > 425 && rating < 510) {
         return "text-red-500";
-    } else if (rating > 510) {
+    } else if (rating >= 510) {
         return "text-red-500";
     }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Set up search button click handler
     const searchButton = document.querySelector('button');
     searchButton.addEventListener('click', () => {
         const filters = {
