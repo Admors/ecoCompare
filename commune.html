@@ -56,11 +56,15 @@
 <main class="flex-grow container mx-auto p-6">
     <div class="bg-white p-6 rounded-2xl shadow-md mb-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-
-            <input type="text" placeholder="📍 Township" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
-            <input type="number" placeholder="📅 Année" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 w-full focus:outline-none focus:ring-2 focus:ring-green-400" />
+            
+            <input class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400"
+                   placeholder="📍 Township"
+                   type="text"/>
+            <input class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 w-full focus:outline-none focus:ring-2 focus:ring-green-400"
+                   placeholder="📅 Year"
+                   type="number"/>
             <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
-                <option>Aucun</option>
+                <option>None</option>
                 <option>A++</option>
                 <option>A+</option>
                 <option>A</option>
@@ -72,7 +76,7 @@
                 <option>G</option>
             </select>
             <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
-                <option>Aucun</option>
+                <option>None</option>
                 <option>A++</option>
                 <option>A+</option>
                 <option>A</option>
@@ -83,33 +87,35 @@
                 <option>F</option>
                 <option>G</option>
             </select>
-
-            <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"><i class="fa-solid fa-magnifying-glass"></i> Rechercher</button>
+            
+            <button
+                class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                type="button">
+                <i class="fa-solid fa-magnifying-glass"></i> Search
+            </button>
         </div>
-
-
-
+    
     </div>
     <div class="container">
         <article class="bg-white p-6 rounded-2xl shadow-md mb8 border border-red-500 my-[1rem]">
-            <h3>📍 Township : Brunehaut</h3>
-            <p>Number of certificate : 1244</p>
-            <p>E-scec average : 523</p>
-            <p>Average Label : G</p>
+            <h3>📍 Township: Brunehaut</h3>
+            <p>Certificate nr: 1244</p>
+            <p>E-scec average: 523</p>
+            <p>Average label: G</p>
         </article>
-
+        
         <article class="bg-white p-6 rounded-2xl shadow-md mb8 border border-orange-500 my-[1rem]">
-            <h3>📍 Township : Brunehaut</h3>
-            <p>Number of certificate : 1244</p>
-            <p>E-scec average : 523</p>
-            <p>Average Label : B</p>
+            <h3>📍 Township: Brunehaut</h3>
+            <p>Certificate nr: 1244</p>
+            <p>E-scec average: 523</p>
+            <p>Average label: B</p>
         </article>
-
+        
         <article class="bg-white p-6 rounded-2xl shadow-md mb8 border border-green-500 my-[1rem]">
-            <h3>📍 Township : Brunehaut</h3>
-            <p>Number of certificate : 1244</p>
-            <p>E-scec average : 523</p>
-            <p>Average Label : A+</p>
+            <h3>📍 Township: Brunehaut</h3>
+            <p>Certificate nr: 1244</p>
+            <p>E-scec average: 523</p>
+            <p>Average label: A+</p>
         </article>
     </div>
 

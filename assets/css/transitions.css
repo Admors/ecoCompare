@@ -4,25 +4,25 @@ main {
 
 html:active-view-transition-type(l) {
     &::view-transition-old(main) {
-        animation: 500ms ease-in-out both slide-out-top;
+        animation: 250ms ease-in-out both slide-out-to-left;
     }
     
     &::view-transition-new(main) {
-        animation: 500ms ease-in-out both slide-in-bottom;
+        animation: 250ms ease-in-out both slide-in-from-right;
     }
 }
 
 html:active-view-transition-type(r) {
     &::view-transition-old(main) {
-        animation: 500ms ease-in-out both slide-in-top;
+        animation: 250ms ease-in-out both slide-out-to-right;
     }
     
     &::view-transition-new(main) {
-        animation: 500ms ease-in-out both slide-out-bottom;
+        animation: 250ms ease-in-out both slide-in-from-left;
     }
 }
 
-@keyframes slide-in-bottom {
+@keyframes slide-in-from-right {
     from {
         transform: translateX(2%);
         opacity: 0;
@@ -33,7 +33,7 @@ html:active-view-transition-type(r) {
     }
 }
 
-@keyframes slide-out-top {
+@keyframes slide-out-to-left {
     from {
         transform: translateX(0);
         opacity: 1;
@@ -44,7 +44,7 @@ html:active-view-transition-type(r) {
     }
 }
 
-@keyframes slide-in-top {
+@keyframes slide-out-to-right {
     from {
         transform: translateX(0);
         opacity: 1;
@@ -55,7 +55,7 @@ html:active-view-transition-type(r) {
     }
 }
 
-@keyframes slide-out-bottom {
+@keyframes slide-in-from-left {
     from {
         transform: translateX(-2%);
         opacity: 0;
