@@ -16,7 +16,7 @@ async function init() {
                         {
                             label: "Annual energy consumption",
                             data: bestCommune.map(row => row.espec),
-                            backgroundColor: "#14532d"
+                            backgroundColor: "oklch(72.3% 0.219 149.579)"
                         }
                     ]
                 }
@@ -34,7 +34,7 @@ async function init() {
                         {
                             label: "Annual energy consumption",
                             data: worstCommune.map(row => row.espec),
-                            backgroundColor: "#ad1328"
+                            backgroundColor: "oklch(63.7% 0.237 25.331)"
                         }
                     ]
                 }
