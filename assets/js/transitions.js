@@ -1,4 +1,4 @@
-const PAGE_ORDER = ["index.html", "habitation.html", "commune.html", "dashboard.html"];
+const PAGE_ORDER = ["index.html", "habitation.html", "municipality.html", "dashboard.html"];
 
 function getDirection(fromPath, toPath) {
     const fromIdx = PAGE_ORDER.indexOf(fromPath.split("/").pop());
