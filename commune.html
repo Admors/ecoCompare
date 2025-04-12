@@ -7,8 +7,6 @@
     
     <!-- CSS -->
     <link href="assets/css/reset.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     
     <!-- JS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,8 +15,19 @@
     <title>EcoCompare – Commune</title>
     <link href="assets/media/logo.webp" rel="icon">
     <style>
-        body {font-family: "Inter", sans-serif; height: 100vh;}
-        main {height: inherit;}
+        @font-face {
+            font-family: "Inter";
+            src: url("assets/fonts/inter.woff2");
+        }
+        
+        body {
+            font-family: "Inter", sans-serif;
+            height: 100vh;
+        }
+        
+        main {
+            height: inherit;
+        }
     </style>
 </head>
 
@@ -26,13 +35,13 @@
 <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="flex items-center justify-between px-6 py-4">
         <div class="flex items-center gap-3">
-            <img src="assets/media/logo.webp" class="w-16 h-16" alt="Logo" />
-            <a href="index.html" class="text-2xl font-semibold hover:text-green-600 transition">EcoCompare</a>
+            <img alt="Logo" class="w-16 h-16" src="assets/media/logo.webp"/>
+            <a class="text-2xl font-semibold hover:text-green-600 transition" href="index.html">EcoCompare</a>
         </div>
         <nav class="space-x-6">
-            <a href="habitation.html" class="text-gray-700 hover:text-green-600 transition">Habitation</a>
-            <a href="commune.html" class="text-gray-700 hover:text-green-600 transition">Commune</a>
-            <a href="dashboard.html" class="text-gray-700 hover:text-green-600 transition">Dashboard</a>
+            <a class="text-gray-700 hover:text-green-600 transition" href="habitation.html">Habitation</a>
+            <a class="text-gray-700 hover:text-green-600 transition" href="commune.html">Commune</a>
+            <a class="text-gray-700 hover:text-green-600 transition" href="dashboard.html">Dashboard</a>
         </nav>
     </div>
 </header>
