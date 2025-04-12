@@ -15,9 +15,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    /*This is future CSS, still cooking...
-    text-box-edge: cap alphabetic;
-    text-box-trim: trim-both;*/
     hanging-punctuation: first last;
 }
 
