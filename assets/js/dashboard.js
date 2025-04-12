@@ -5,8 +5,8 @@ async function init2() {
 
         if (data) {
             const bestCommune = data.results.map(commune => (
-                {name : commune.municipality, espec : commune.e_spec}
-            )).sort((a,b) => a.espec - b.espec).splice(0, 10);
+                {name: commune.municipality, espec: commune.e_spec}
+            )).sort((a, b) => a.espec - b.espec).splice(0, 10);
 
             new Chart(document.querySelector("#chartForBest"), {
                 type: "bar",
@@ -14,7 +14,7 @@ async function init2() {
                     labels: bestCommune.map(row => row.name),
                     datasets: [
                         {
-                            label: "Annual energy consumption",
+                            label: "Annual energy consumption (in kWh/m² per year)",
                             data: bestCommune.map(row => row.espec),
                             backgroundColor: "#14532D"
                         }
@@ -23,8 +23,8 @@ async function init2() {
             });
 
             const worstCommune = data.results.map(commune => (
-                {name : commune.municipality, espec : commune.e_spec}
-            )).sort((a,b) => b.espec - a.espec).splice(0, 10);
+                {name: commune.municipality, espec: commune.e_spec}
+            )).sort((a, b) => b.espec - a.espec).splice(0, 10);
 
             new Chart(document.querySelector("#chartForWorst"), {
                 type: "bar",
@@ -32,7 +32,7 @@ async function init2() {
                     labels: worstCommune.map(row => row.name),
                     datasets: [
                         {
-                            label: "Annual energy consumption",
+                            label: "Annual energy consumption (in kWh/m² per year)",
                             data: worstCommune.map(row => row.espec),
                             backgroundColor: "#ad1328"
                         }
