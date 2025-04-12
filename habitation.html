@@ -4,76 +4,94 @@
     <!-- Default tags -->
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    
+
     <!-- CSS -->
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+
     <!-- JS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="assets/js/habitation.js" type="module"></script>
+
     <!-- Title & icon -->
     <title>EcoCompare – Habitation</title>
     <link href="assets/media/logo.webp" rel="icon">
     <style>
-        body {font-family: "Inter", sans-serif; height: 100vh;}
-        main {height: inherit;}
+        body {
+            font-family: "Inter", sans-serif;
+            height: 100vh;
+        }
+
+        main {
+            height: inherit;
+        }
     </style>
 </head>
 
 <body class="flex flex-col">
 <header class="bg-white shadow-sm sticky top-0 z-50">
-  <div class="flex items-center justify-between px-6 py-4">
-    <div class="flex items-center gap-3">
-      <img src="assets/media/logo.webp" class="w-16 h-16" alt="Logo" />
-      <a href="index.html" class="text-2xl font-semibold hover:text-green-600 transition">EcoCompare</a>
+    <div class="flex items-center justify-between px-6 py-4">
+        <div class="flex items-center gap-3">
+            <img alt="Logo" class="w-16 h-16" src="assets/media/logo.webp"/>
+            <a class="text-2xl font-semibold hover:text-green-600 transition" href="index.html">EcoCompare</a>
+        </div>
+        <nav class="space-x-6">
+            <a class="text-gray-700 hover:text-green-600 transition" href="habitation.html">Habitation</a>
+            <a class="text-gray-700 hover:text-green-600 transition" href="commune.html">Commune</a>
+            <a class="text-gray-700 hover:text-green-600 transition" href="dashboard.html">Dashboard</a>
+        </nav>
     </div>
-    <nav class="space-x-6">
-      <a href="habitation.html" class="text-gray-700 hover:text-green-600 transition">Habitation</a>
-      <a href="commune.html" class="text-gray-700 hover:text-green-600 transition">Commune</a>
-      <a href="dashboard.html" class="text-gray-700 hover:text-green-600 transition">Dashboard</a>
-    </nav>
-  </div>
 </header>
 
 <main class="flex-grow container mx-auto p-6">
     <h1 class="text-xl font-bold mb-2">Habitation</h1>
     <div class="bg-white p-6 rounded-2xl shadow-md mb-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-      <input type="text" placeholder="INS-code" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
-      <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
-        <option>None</option>
-        <option>Single-family house</option>
-        <option>Apartment</option>
-      </select>
-      <input type="text" placeholder="📍 Location" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" />
-      <input type="number" placeholder="📅 Year" class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 w-full focus:outline-none focus:ring-2 focus:ring-green-400" />
-      <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
-        <option>A+</option>
-        <option>A</option>
-        <option>B</option>
-        <option>C</option>
-        <option>D</option>
-        <option>E</option>
-        <option>F</option>
-        <option>None</option>
-      </select>
-      <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"><em class="fa-solid fa-magnifying-glass"></em> Rechercher</button>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <input class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="INS-code"
+                   type="text"/>
+            <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
+                <option>None</option>
+                <option>Single-family house</option>
+                <option>Apartment</option>
+            </select>
+            <input class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="📍 Location"
+                   type="text"/>
+            <input class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 w-full focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="📅 Year"
+                   type="number"/>
+            <select class="px-4 py-2 rounded-xl shadow-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-400">
+                <option>A+</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>E</option>
+                <option>F</option>
+                <option>None</option>
+            </select>
+            <button class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                    type="button">
+                <em class="fa-solid fa-magnifying-glass"></em> Rechercher
+            </button>
+        </div>
     </div>
-  </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition-shadow duration-300 hover:scale-[1.02] transform">
-      <h2 class="text-xl font-semibold text-green-600 mb-2">🏚️ 42</h2>
-      <ul class="text-sm text-gray-600 space-y-1">
-        <li><em class="fas fa-home mr-2 text-gray-500"></em>Type: Residential</li>
-        <li><em class="fas fa-map-marker-alt mr-2 text-gray-500"></em>Location: Seraing</li>
-        <li><em class="fas fa-calendar-alt mr-2 text-gray-500"></em>Year: 2012</li>
-        <li><em class="fas fa-bolt mr-2 text-gray-500"></em>Energy rating: <span class="text-green-500 font-semibold">A</span></li>
-      </ul>
+    <div class="houses-container">
+
     </div>
-  </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition-shadow duration-300 hover:scale-[1.02] transform">
+            <h2 class="text-xl font-semibold text-green-600 mb-2">🏚️ 42</h2>
+            <ul class="text-sm text-gray-600 space-y-1">
+                <li><em class="fas fa-home mr-2 text-gray-500"></em>Type: Residential</li>
+                <li><em class="fas fa-map-marker-alt mr-2 text-gray-500"></em>Location: Seraing</li>
+                <li><em class="fas fa-calendar-alt mr-2 text-gray-500"></em>Year: 2012</li>
+                <li><em class="fas fa-bolt mr-2 text-gray-500"></em>Energy rating: <span
+                        class="text-green-500 font-semibold">A</span></li>
+            </ul>
+        </div>
+    </div>
 </main>
 
 <footer class="bg-green-900 text-white py-6 text-center text-sm mt-12">
