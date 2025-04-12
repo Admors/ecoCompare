@@ -1,0 +1,67 @@
+main {
+    view-transition-name: main;
+}
+
+html:active-view-transition-type(l) {
+    &::view-transition-old(main) {
+        animation: 250ms ease-in-out both slide-out-to-left;
+    }
+    
+    &::view-transition-new(main) {
+        animation: 250ms ease-in-out both slide-in-from-right;
+    }
+}
+
+html:active-view-transition-type(r) {
+    &::view-transition-old(main) {
+        animation: 250ms ease-in-out both slide-out-to-right;
+    }
+    
+    &::view-transition-new(main) {
+        animation: 250ms ease-in-out both slide-in-from-left;
+    }
+}
+
+@keyframes slide-in-from-right {
+    from {
+        transform: translateX(2%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-out-to-left {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-2%);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-out-to-right {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(2%);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-in-from-left {
+    from {
+        transform: translateX(-2%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
