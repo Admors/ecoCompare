@@ -6,42 +6,41 @@ function init() {
 async function loadBuildings(filters = {}) {
     const $buildingContainer = document.querySelector("#building-container");
     $buildingContainer.innerHTML = "";
-    
+
     try {
         const response = await fetch("data/buildings.json");
         const data = await response.json();
-        
+
         const filteredBuildings = data.results.filter(building => {
             if (filters.insCode && building.mun_code !== filters.insCode) return false;
-            
+
             if (filters.buildingType && filters.buildingType !== "Any" &&
                 building.destination !== filters.buildingType) {
                 return false;
             }
-            
-            if (filters.location &&
-                !(building.municipality?.toLowerCase().includes(filters.location.toLowerCase()) ||
-                    building.province?.toLowerCase().includes(filters.location.toLowerCase()))) {
+
+            if (filters.location && !(building.municipality.toLowerCase().includes(filters.location.toLowerCase()) ||
+                building.province?.toLowerCase().includes(filters.location.toLowerCase()))) {
                 return false;
             }
-            
+
             if (filters.year && parseInt(building.build_year, 10) !== parseInt(filters.year, 10)) {
                 return false;
             }
-            
+
             if (filters.energyRating && filters.energyRating !== "Any" &&
                 building.e_spec_label !== filters.energyRating) {
                 return false;
             }
-            
+
             return true;
         });
-        
+
         if (filteredBuildings.length === 0) {
             $buildingContainer.innerHTML = "<p class='col-span-3 text-center text-gray-500 py-8'>No buildings found matching your criteria.</p>";
             return;
         }
-        
+
         filteredBuildings.forEach(building => {
             const color = getColor(building);
             $buildingContainer.insertAdjacentHTML("beforeend", `
@@ -57,7 +56,7 @@ async function loadBuildings(filters = {}) {
                 </div>
             `);
         });
-        
+
     } catch (error) {
         $buildingContainer.innerHTML = "<p class='text-red-500'>Failed to load building data.</p>";
     }

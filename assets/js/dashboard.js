@@ -1,13 +1,13 @@
-async function init() {
+async function init2() {
     try {
         const response = await fetch("data/municipality.json");
         const data = await response.json();
-        
+
         if (data) {
             const bestCommune = data.results.map(commune => (
                 {name: commune.municipality, espec: commune.e_spec}
             )).sort((a, b) => a.espec - b.espec).splice(0, 10);
-            
+
             new Chart(document.querySelector("#chartForBest"), {
                 type: "bar",
                 data: {
@@ -21,11 +21,11 @@ async function init() {
                     ]
                 }
             });
-            
+
             const worstCommune = data.results.map(commune => (
-                {name: commune.municipality, espec: commune.e_spec}
-            )).sort((a, b) => b.espec - a.espec).splice(0, 10);
-            
+                {name : commune.municipality, espec : commune.e_spec}
+            )).sort((a,b) => b.espec - a.espec).splice(0, 10);
+
             new Chart(document.querySelector("#chartForWorst"), {
                 type: "bar",
                 data: {
@@ -41,8 +41,8 @@ async function init() {
             });
         }
     } catch (error) {
-        console.log(error);
+        console.log(error)
     }
 }
 
-await init();
+await init2();
