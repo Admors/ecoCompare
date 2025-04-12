@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoCompare</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-50 text-gray-800">
+
+<!-- Header -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="flex items-center justify-between px-6 py-4">
+    <div class="flex items-center gap-3">
+      <img src="logo.png" class="w-16 h-16" alt="Logo" />
+      <a href="index.html" class="text-2xl font-semibold hover:text-green-600 transition">EcoCompare</a>
+    </div>
+    <nav class="space-x-6">
+      <a href="habitation.html" class="text-gray-700 hover:text-green-600 transition">Habitation</a>
+      <a href="commune.html" class="text-gray-700 hover:text-green-600 transition">Commune</a>
+      <a href="dashboard.html" class="text-gray-700 hover:text-green-600 transition">Tableau de bord</a>
+    </nav>
+  </div>
+</header>
+
+<main class="flex-grow container mx-auto p-6">
+  <div class="bg-white p-6 rounded-2xl shadow-md mb-8 w-fit mx-auto">
+    <canvas id="chart" width="800"></canvas>
+    <script type="module" src="../ChartTest.js"></script>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-green-900 text-white py-6 text-center text-sm mt-12">
+  &copy; 2025 EcoCompare. Tous droits réservés.
+</footer>
+</body>
+</html>
