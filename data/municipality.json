@@ -2,301 +2,301 @@
   "total_count": 262,
   "results": [
     {
-      "municipality": "Andenne",
+      "commune": "Andenne",
       "e_spec": 404,
       "certificates": 6037,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Ans",
+      "commune": "Ans",
       "e_spec": 362,
       "certificates": 5757,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Baelen",
+      "commune": "Baelen",
       "e_spec": 430,
       "certificates": 692,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Bassenge",
+      "commune": "Bassenge",
       "e_spec": 439,
       "certificates": 1590,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Beloeil",
+      "commune": "Beloeil",
       "e_spec": 412,
       "certificates": 2818,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Binche",
+      "commune": "Binche",
       "e_spec": 443,
       "certificates": 6494,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Boussu",
+      "commune": "Boussu",
       "e_spec": 423,
       "certificates": 4014,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Brunehaut",
+      "commune": "Brunehaut",
       "e_spec": 523,
       "certificates": 1244,
       "e_spec_label": "G"
     },
     {
-      "municipality": "Celles",
+      "commune": "Celles",
       "e_spec": 396,
       "certificates": 924,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Chaudfontaine",
+      "commune": "Chaudfontaine",
       "e_spec": 402,
       "certificates": 4323,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Ciney",
+      "commune": "Ciney",
       "e_spec": 358,
       "certificates": 4086,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Colfontaine",
+      "commune": "Colfontaine",
       "e_spec": 378,
       "certificates": 4085,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Étalle",
+      "commune": "Étalle",
       "e_spec": 344,
       "certificates": 813,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Eupen",
+      "commune": "Eupen",
       "e_spec": 374,
       "certificates": 3720,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Fernelmont",
+      "commune": "Fernelmont",
       "e_spec": 411,
       "certificates": 1202,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Fleurus",
+      "commune": "Fleurus",
       "e_spec": 364,
       "certificates": 4244,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Froidchapelle",
+      "commune": "Froidchapelle",
       "e_spec": 292,
       "certificates": 1033,
       "e_spec_label": "D"
     },
     {
-      "municipality": "Genappe",
+      "commune": "Genappe",
       "e_spec": 345,
       "certificates": 3048,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Habay",
+      "commune": "Habay",
       "e_spec": 295,
       "certificates": 1550,
       "e_spec_label": "D"
     },
     {
-      "municipality": "Havelange",
+      "commune": "Havelange",
       "e_spec": 557,
       "certificates": 987,
       "e_spec_label": "G"
     },
     {
-      "municipality": "Herbeumont",
+      "commune": "Herbeumont",
       "e_spec": 500,
       "certificates": 401,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Herstal",
+      "commune": "Herstal",
       "e_spec": 378,
       "certificates": 7658,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Houffalize",
+      "commune": "Houffalize",
       "e_spec": 367,
       "certificates": 1367,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Huy",
+      "commune": "Huy",
       "e_spec": 355,
       "certificates": 6394,
       "e_spec_label": "E"
     },
     {
-      "municipality": "La Louvière",
+      "commune": "La Louvière",
       "e_spec": 391,
       "certificates": 14890,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Léglise",
+      "commune": "Léglise",
       "e_spec": 423,
       "certificates": 768,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Lens",
+      "commune": "Lens",
       "e_spec": 408,
       "certificates": 880,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Les Bons Villers",
+      "commune": "Les Bons Villers",
       "e_spec": 416,
       "certificates": 1651,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Leuze-en-Hainaut",
+      "commune": "Leuze-en-Hainaut",
       "e_spec": 375,
       "certificates": 2758,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Lobbes",
+      "commune": "Lobbes",
       "e_spec": 433,
       "certificates": 1012,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Malmedy",
+      "commune": "Malmedy",
       "e_spec": 335,
       "certificates": 2847,
       "e_spec_label": "D"
     },
     {
-      "municipality": "Merbes-le-Château",
+      "commune": "Merbes-le-Château",
       "e_spec": 478,
       "certificates": 673,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Mons",
+      "commune": "Mons",
       "e_spec": 401,
       "certificates": 25712,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Mont-Saint-Guibert",
+      "commune": "Mont-Saint-Guibert",
       "e_spec": 303,
       "certificates": 1582,
       "e_spec_label": "D"
     },
     {
-      "municipality": "Olne",
+      "commune": "Olne",
       "e_spec": 379,
       "certificates": 620,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Ottignies-Louvain-la-Neuve",
+      "commune": "Ottignies-Louvain-la-Neuve",
       "e_spec": 286,
       "certificates": 10936,
       "e_spec_label": "D"
     },
     {
-      "municipality": "Péruwelz",
+      "commune": "Péruwelz",
       "e_spec": 441,
       "certificates": 3522,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Philippeville",
+      "commune": "Philippeville",
       "e_spec": 451,
       "certificates": 1954,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Profondeville",
+      "commune": "Profondeville",
       "e_spec": 413,
       "certificates": 2402,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Quiévrain",
+      "commune": "Quiévrain",
       "e_spec": 401,
       "certificates": 1502,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Rebecq",
+      "commune": "Rebecq",
       "e_spec": 370,
       "certificates": 2018,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Rixensart",
+      "commune": "Rixensart",
       "e_spec": 337,
       "certificates": 4920,
       "e_spec_label": "D"
     },
     {
-      "municipality": "Rumes",
+      "commune": "Rumes",
       "e_spec": 421,
       "certificates": 834,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Sainte-Ode",
+      "commune": "Sainte-Ode",
       "e_spec": 228,
       "certificates": 473,
       "e_spec_label": "C"
     },
     {
-      "municipality": "Sambreville",
+      "commune": "Sambreville",
       "e_spec": 411,
       "certificates": 5425,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Saint-Vith",
+      "commune": "Saint-Vith",
       "e_spec": 361,
       "certificates": 1343,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Soumagne",
+      "commune": "Soumagne",
       "e_spec": 396,
       "certificates": 2662,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Spa",
+      "commune": "Spa",
       "e_spec": 435,
       "certificates": 3137,
       "e_spec_label": "F"
     },
     {
-      "municipality": "Sprimont",
+      "commune": "Sprimont",
       "e_spec": 380,
       "certificates": 2568,
       "e_spec_label": "E"
     },
     {
-      "municipality": "Stavelot",
+      "commune": "Stavelot",
       "e_spec": 402,
       "certificates": 1635,
       "e_spec_label": "E"
