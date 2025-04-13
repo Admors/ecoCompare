@@ -41,10 +41,11 @@ async function loadBuildings(filters = {}) {
             return;
         }
         
-        filteredBuildings.forEach(building => {
+        filteredBuildings.forEach((building, i) => {
             const color = getColor(building);
+            const animationDelay = i > 15 ? 15 : i;
             $buildingContainer.insertAdjacentHTML("beforeend", `
-                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 hover:scale-[1.02] transform border-2 border-${color}">
+            <article class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition hover:scale-[1.02] transform border-2 border-${color} opacity-0 animate-fade-in" style="animation-delay: ${animationDelay * 100}ms;">
                     <h2 class="text-xl font-semibold mb-2">🏚️ ${building.mun_code || "N/A"}</h2>
                     <ul class="text-sm text-gray-600 space-y-1">
                     <li><em class="fas w-4 fa-home mr-2 text-gray-500"></em>Type: ${building.destination.toLowerCase().replaceAll("_", " ")}</li>
@@ -53,7 +54,7 @@ async function loadBuildings(filters = {}) {
                     <li><em class="fas w-4 fa-bolt mr-2 text-gray-500"></em>EPC:
                     <span class="text-${color} font-semibold">${building.e_spec_label || "N/A"} (${building.e_spec} kWh/m² per year)</span></li>
                     </ul>
-                </div>
+                </article>
             `);
         });
         
