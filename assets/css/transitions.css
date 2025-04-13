@@ -20,21 +20,21 @@ main {
 
 html:active-view-transition-type(l) {
     &::view-transition-old(main) {
-        animation: 250ms ease-in-out both slide-out-to-left;
+        animation: 500ms ease-in-out both slide-out-to-left;
     }
     
     &::view-transition-new(main) {
-        animation: 250ms ease-in-out both slide-in-from-right;
+        animation: 500ms ease-in-out both slide-in-from-right;
     }
 }
 
 html:active-view-transition-type(r) {
     &::view-transition-old(main) {
-        animation: 250ms ease-in-out both slide-out-to-right;
+        animation: 500ms ease-in-out both slide-out-to-right;
     }
     
     &::view-transition-new(main) {
-        animation: 250ms ease-in-out both slide-in-from-left;
+        animation: 500ms ease-in-out both slide-in-from-left;
     }
 }
 
