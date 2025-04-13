@@ -72,9 +72,9 @@ async function loadMunicipality(filters = {}) {
                 <article class="bg-white p-6 rounded-2xl shadow-md mb-8 border border-${color} my-[1rem]">
                     <h2 class="text-xl font-semibold mb-2">📍 Municipality: ${m.municipality || "N/A"}</h2>
                     <ul class="text-sm text-gray-600 space-y-1">
-                        <li>Certificates: ${m.certificates}</li>
-                        <li>E-spec average: ${m.e_spec}</li>
-                        <li>Average label: <span class="text-${color} font-semibold">${m.e_spec_label}</span></li>
+                        <li>Number of Energy Performance Certificates: ${m.certificates}</li>
+                        <li>Average Energy Efficiency Rating: ${m.e_spec}</li>
+                        <li>Average Energy Efficiency Label: <span class="text-${color} font-semibold">${m.e_spec_label}</span></li>
                     </ul>
                 </article>
             `);
