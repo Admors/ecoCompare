@@ -49,8 +49,8 @@ async function loadBuildings(filters = {}) {
                     <ul class="text-sm text-gray-600 space-y-1">
                     <li><em class="fas w-4 fa-home mr-2 text-gray-500"></em>Type: ${building.destination.toLowerCase().replaceAll("_", " ")}</li>
                     <li><em class="fas w-4 fa-map-marker-alt mr-2 text-gray-500"></em>Location: ${building.municipality || "N/A"}, ${building.province}</li>
-                    <li><em class="fas w-4 fa-calendar-alt mr-2 text-gray-500"></em>Year: ${building.build_year || "N/A"}</li>
-                    <li><em class="fas w-4 fa-bolt mr-2 text-gray-500"></em>Energy rating:
+                    <li><em class="fas w-4 fa-calendar-alt mr-2 text-gray-500"></em>Year of Construction: ${building.build_year || "N/A"}</li>
+                    <li><em class="fas w-4 fa-bolt mr-2 text-gray-500"></em>EPC:
                     <span class="${color} font-semibold">${building.e_spec_label || "N/A"} (${building.e_spec} kWh/m² per year)</span></li>
                     </ul>
                 </div>
