@@ -15,7 +15,7 @@ Il permet de consulter le nombre de certificats émis ainsi que les rapports de 
 - **Rapports municipaux** : Liens vers les *Municipality Energy Performance Reports*.
 
 > [!NOTE]
-> Les données proviennent de 3 API ouvertes disponibles sur [Open Data Wallonie-Bruxelles](https://www.odwb.be/)
+> Les données proviennent de 4 JSON ouvertes disponibles sur [Open Data Wallonie-Bruxelles](https://www.odwb.be/)
 
 ### 🐞 Bugs connus
 
@@ -41,7 +41,7 @@ It allows users to view the number of issued certificates and associated energy 
 - **Municipal reports**: Links to *Municipality Energy Performance Reports*.
 
 > [!NOTE]  
-> We use data from 3 public APIs available at [Open Data Wallonie-Bruxelles](https://www.odwb.be/)
+> We use data from 4 public JSONs available at [Open Data Wallonie-Bruxelles](https://www.odwb.be/)
 
 ### 🐞 Known Bugs
 
