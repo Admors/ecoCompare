@@ -1,23 +1,18 @@
-## Documentation technique pour l'installation
+# 📄 Documentation technique pour l'installation
 
-### Pré-requis
-
+## ✅ Prérequis
 - Avoir un compte GitHub
 - Avoir Git installé localement
 - Connaissances de base en HTML/CSS/JS
 - Navigateur web à jour
 
-### Étapes de déploiement
+## 🚀 Étapes de déploiement
 
 1. **Cloner le dépôt**
    ```bash
    git clone https://github.com/admors/ecoCompare.git
-   ```
 2. **Aller dans le dossier du projet**
-   ```bash
+    ```bash
    cd ecoCompare
-   ```
-
-5. **Accéder au site**
-    - Une fois déployé, disponible :
-      [EcoCompare](https://admors.github.io/ecoCompare/)
+3. Le site est disponible à l'adresse suivante :
+   [EcoCompare](https://admors.github.io/ecoCompare/)
