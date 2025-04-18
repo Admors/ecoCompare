@@ -11,9 +11,9 @@ Ce site internet a pour but de fournir un accès visuel et rapide à la comparai
 - **Accès aux certificats** : Lien vers les *Energy Performance Certificates*.
 - **Rapports municipaux** : Lien vers des *Municipality Energy Performance Reports*.
 
-### Bugs connus
+> [!NOTE]
+> Nous utilisons les données de 3 API disponible de (Open Data Wallonie-Bruxelles)[https://www.odwb.be/]
 
-- **Liens inactifs** : Certains liens affichés (comme les certificats ou rapports) ne mènent à aucune ressource.
-- **Absence de contenu dynamique** : Les pages liées ne contiennent pas de données ou visualisations réelles (placeholders uniquement).
-- **Manque de retour utilisateur** : Aucun indicateur n’est fourni lorsqu’on clique sur les onglets — pas d’animation ou de surlignement actif.
+### Bugs connus
+- **Cache** : Sur mobile le stockage cache fait crash votre navigateur.
 - **Design très basique** : Peu de feedback visuel, ergonomie et expérience utilisateur à améliorer.
